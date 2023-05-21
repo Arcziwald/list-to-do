@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/container.css" rel="stylesheet">
-    <link href="css/flex.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,10 +20,19 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="flex">
-            <div class="flex__item">1</div>
-            <div class="flex__item">2</div>
-        </div>
-    </div>
-</body>
+    <main class="container">
+        <header> 
+            <h1 class="body">Lista zadań</h1>
+        </header>
+        <section class="section">
+            <h2 class="section__header"> Dodaj nowe zadanie</h2>
+            <form class="form js-form">
+                <input class="form__input js-newTask" placeholder="Co jest do zrobienia?" autofocus>
+            </form>
+        </section>
+        <section class="section">
+            <h2 class="section__header"> Lista zadań</h2>
+        </section>
+    </main>
+    </body>
+</html>
