@@ -12,4 +12,6 @@
   font-family: "Lato", sans-serif;
 }
 
-
+.section__header--text {
+    font-weight: 700;
+}
