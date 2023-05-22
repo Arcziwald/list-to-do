@@ -5,8 +5,10 @@ html {
     box-sizing: inherit;
 }
 .body {
-    font-family: "Lato", sans-serif;
     line-height: 1.5;
     word-break: break-all; 
     color: rgb(0, 0, 0);
 }
+
+
+  
