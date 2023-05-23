@@ -18,4 +18,4 @@ This project is a tool for creating a task list and organizing it by hiding or d
 - Java Script
 - Normalize CSS
 - BEM convention
-- Grid box
+- Grid
