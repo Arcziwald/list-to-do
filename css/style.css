@@ -1,14 +1,21 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-*, ::after, ::before {
-    box-sizing: inherit;
-}
-.body {
-    line-height: 1.5;
-    word-break: break-all; 
-    color: rgb(0, 0, 0);
+*,
+::after,
+::before {
+  box-sizing: inherit;
 }
 
+.header {
+  padding: 10px;
+  margin: 10px;
+  background: white;
+  box-shadow: 0 0 5px #ddd;
+}
 
-  
+.header__title {
+  line-height: 1.5;
+  word-break: break-all;
+  color: rgb(0, 0, 0);
+}

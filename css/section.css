@@ -12,21 +12,20 @@
   font-family: "Lato", sans-serif;
 }
 
-.section__header--text {
-    font-weight: 700;
+.section__title {
+  font-weight: 700;
 }
 
 .section__tasks {
-    display: grid;
-    grid-template-columns: 1fr auto auto;
-    align-items: center;
-    border-bottom: 1px solid rgb(216, 216, 216);
-    padding: 0;  
-    margin: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  border-bottom: 1px solid rgb(216, 216, 216);
+  padding: 0;
+  margin: 0 20px;
 }
-@media(max-width: 767px) {
-    
-    .section__tasks{
-        grid-template-columns: 1fr;
-    }
+@media (max-width: 767px) {
+  .section__tasks {
+    grid-template-columns: 1fr;
+  }
 }
