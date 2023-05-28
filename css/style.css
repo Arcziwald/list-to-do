@@ -7,6 +7,10 @@ html {
   box-sizing: inherit;
 }
 
+.body {
+  background-color: rgba(232, 232, 232, 0.69);
+}
+
 .header {
   padding: 10px;
   margin: 10px;
