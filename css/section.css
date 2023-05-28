@@ -7,14 +7,14 @@
 
 .section__header {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: auto auto;
+  justify-content: space-between;
   align-items: center;
   grid-gap: 10px;
   padding: 20px;
   margin: 0 auto;
   border-bottom: 1px solid #ddd;
-  font-family: "Montserrat", sans-serif;
-}
+ }
 
 .section__title {
   font-weight: 700;
