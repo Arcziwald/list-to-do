@@ -88,7 +88,7 @@
         </button> `;
   };
 
-  const bindstatEvents = () => {
+  const bindStatEvents = () => {
     const markAllDoneButton = document.querySelector(".js-markAllDoneButton");
     if (markAllDoneButton) {
       markAllDoneButton.addEventListener("click", markAllTasksDone);
@@ -105,7 +105,7 @@
     renderTasks();
     bindEvents();
     renderStat();
-    bindstatEvents();
+    bindStatEvents();
   };
 
   const onFormSubmit = (event) => {
