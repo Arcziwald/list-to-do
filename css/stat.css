@@ -3,7 +3,7 @@
     background-color: white;
     border: none;
     color: rgb(9, 114, 133);
-    transition: color 1s;
+    transition: 1s;
 }
 
 .button--markAllDoneButton:hover {
