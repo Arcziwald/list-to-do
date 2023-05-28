@@ -1,9 +1,9 @@
 .stat__button {
-    
     background-color: white;
     border: none;
     color: rgb(9, 114, 133);
     transition: 1s;
+    cursor: pointer;
 }
 
 .button--markAllDoneButton:hover {

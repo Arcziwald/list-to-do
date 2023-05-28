@@ -15,6 +15,7 @@
 .tasks__button--toggleDone {
     background: rgb(32, 124, 29);
     transition: color 1s;
+    cursor: pointer;
 }
 .tasks__button--toggleDone:hover {
     background: rgb(29, 146, 37);
@@ -39,6 +40,7 @@
 .tasks__button--remove {
     background: rgb(219, 20, 20);
     transition: color 1s;
+    cursor: pointer;
 }
 .tasks__button--remove:hover {
     background: rgb(250, 32, 32);
