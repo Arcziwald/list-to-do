@@ -1,4 +1,7 @@
 .stat__button {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     background-color: white;
     border: none;
     color: rgb(9, 114, 133);
@@ -26,7 +29,6 @@
 @media(max-width: 767px) {
     
     .stat__button {
-       align-content: center;
        width: 100%;
        margin: 2px;
     }
