@@ -25,7 +25,7 @@
 .form__button {
   padding: 10px;
   background: hsl(180, 100%, 25%);
-  transition: 1s ease;
+  transition: color 1s ease;
   color: rgb(255, 255, 255);
   border: none;
 }
