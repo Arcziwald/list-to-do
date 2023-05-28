@@ -1,4 +1,5 @@
 .stat__button {
+    
     background-color: white;
     border: none;
     color: rgb(9, 114, 133);
@@ -27,7 +28,7 @@
     .stat__button {
        align-content: center;
        width: 100%;
-       margin: 10px;
+       margin: 2px;
     }
     
 }
