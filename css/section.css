@@ -18,6 +18,7 @@
 
 .section__title {
   font-weight: 700;
+  margin: 0;
 }
 
 .section__tasks {
