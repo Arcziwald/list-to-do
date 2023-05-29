@@ -73,7 +73,7 @@
     document.querySelector(".js-tasks").innerHTML = htmlString;
   };
 
-  const renderStat = () => {
+  const renderButtons = () => {
     const statElement = document.querySelector(".js-stat");
     if (!tasks.length) {
       statElement.innerHTML = "";
@@ -104,7 +104,7 @@
   const render = () => {
     renderTasks();
     bindEvents();
-    renderStat();
+    renderButtons();
     bindStatEvents();
   };
 
