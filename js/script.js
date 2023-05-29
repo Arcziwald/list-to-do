@@ -61,8 +61,10 @@
       } js-task">
         <button class="tasks__button tasks__button--toggleDone js-toggleDone${
           task.done ? " emoji " : ""
-      }"></button>
-      <span class="tasks__content${task.done ? " tasks__content--toggleDone " : ""}">
+        }"></button>
+      <span class="tasks__content ${
+        task.done ? " tasks__content--toggleDone " : ""
+      }">
         ${task.content}
       </span>
      <button class="tasks__button tasks__button--remove js-remove">🗑</button>
@@ -81,10 +83,12 @@
     }
     statElement.innerHTML = `
         <button class="stat__button button--toggleHideDoneButton js-toggleHideDoneButton">
-        ${hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
+          ${hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
         </button>
         <button class="stat__button  button--markAllDoneButton js-markAllDoneButton"
-        ${tasks.every(({ done }) => done) ? "disabled" : ""}> Ukończ wszystkie 
+          ${
+            tasks.every(({ done }) => done) ? "disabled" : ""
+          }> Ukończ wszystkie 
         </button> `;
   };
 
