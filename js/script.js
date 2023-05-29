@@ -62,7 +62,7 @@
         <button class="tasks__button tasks__button--toggleDone js-toggleDone${
           task.done ? " emoji " : ""
         }"></button>
-      <span class="tasks__content ${
+      <span class="tasks__content${
         task.done ? " tasks__content--toggleDone " : ""
       }">
         ${task.content}
